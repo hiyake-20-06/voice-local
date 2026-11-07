@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Sản phẩm build / phát hành
+app/
+dist/
+out/
+release/
+*.zip
+*.7z
+*.log
+
+# Secret & cấu hình cá nhân (TUYỆT ĐỐI không commit)
+server/node/config.json
+keygen/config.json
+.env
+.env.*
+
+# Model AI & binary nặng (không kèm trong repo, xem README)
+src/assets/model/kokoro_vi.onnx
+src/assets/model/sea_g2p.bin
+src/assets/model/moss-tts-nano/
+src/assets/model/moss-onnx/
+src/assets/model/vieneu-v3-int8/
+src/assets/asr/
+src/assets/ffmpeg/
+
+# Dữ liệu chạy
+*-data/
+hotanvoice-data/
+keygen-data/
+license.json
+trial.json
+.wrangler/
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

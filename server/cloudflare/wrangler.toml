@@ -1,0 +1,19 @@
+# hotanvoice license Worker
+# Sửa "id" sau khi chạy: wrangler kv namespace create HTV
+
+name = "hotanvoice-license"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "HTV"
+id = "<KV_NAMESPACE_ID>"
+
+[vars]
+GRACE_DAYS = "7"
+TRIAL_MINUTES = "10"
+
+# Secret (không ghi vào file này):
+#   wrangler secret put ADMIN_TOKEN
+#   wrangler secret put LICENSE_SECRET
+#   wrangler secret put PRIVATE_JWK

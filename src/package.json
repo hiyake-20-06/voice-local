@@ -1,0 +1,24 @@
+{
+  "name": "hotanvoice",
+  "productName": "hotanvoice",
+  "version": "1.0.0",
+  "description": "hotanvoice v1.0 - studio chuyen van ban thanh giong noi da mo hinh, xu ly offline tren may",
+  "main": "main.js",
+  "author": "Ho Tan",
+  "license": "SEE LICENSE IN LEGAL-NOTICES.txt",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "lint": "node --check main.js && node --check preload.js && node --check lib/license.js && node --check node/worker.js && node --check node/g2p.js && node --check node/modules/kokoro_vietnamese.js && node --check node/modules/vieneu_v3.js && node --check node/modules/moss_tts_nano_onnx.js && node --check renderer/app.js"
+  },
+  "dependencies": {
+    "@lambda_x/sptk": "^1.1.3",
+    "ffmpeg-static": "^5.2.0",
+    "onnxruntime-node": "^1.22.0",
+    "read-vietnamese-number": "2.3.1"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7"
+  }
+}

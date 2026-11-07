@@ -1,0 +1,4 @@
+{
+  "_doc": "Chép file này thành config.json (cùng thư mục keygen) rồi điền licenseSecret. KHÔNG commit config.json lên git.",
+  "licenseSecret": "HTV1-THAY_BANG_SECRET_CUA_BAN"
+}

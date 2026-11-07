@@ -1,0 +1,17 @@
+{
+  "port": 8787,
+  "publicUrl": "https://license.example.com",
+  "adminToken": "CHANGE_ME_RANDOM",
+  "licenseSecret": "CHANGE_ME_SECRET",
+  "graceDays": 7,
+  "trialMinutes": 10,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "dataDir": "data",
+  "privateJwk": {
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "<server-private-x>",
+    "y": "<server-private-y>",
+    "d": "<server-private-d>"
+  }
+}

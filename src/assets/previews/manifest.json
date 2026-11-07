@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "sentence": "Xin chào đây là giọng đọc {preset}.",
+  "models": {
+    "kokoro-vietnamese-node": {
+      "voices": [
+        {
+          "voice": "diem_trinh",
+          "label": "diem_trinh",
+          "file": "kokoro/diem-trinh.wav"
+        },
+        {
+          "voice": "hung_thinh",
+          "label": "hung_thinh",
+          "file": "kokoro/hung-thinh.wav"
+        },
+        {
+          "voice": "mai_linh",
+          "label": "mai_linh",
+          "file": "kokoro/mai-linh.wav"
+        },
+        {
+          "voice": "mai_loan",
+          "label": "mai_loan",
+          "file": "kokoro/mai-loan.wav"
+        },
+        {
+          "voice": "manh_dung",
+          "label": "manh_dung",
+          "file": "kokoro/manh-dung.wav"
+        },
+        {
+          "voice": "my_yen",
+          "label": "my_yen",
+          "file": "kokoro/my-yen.wav"
+        },
+        {
+          "voice": "ngoc_huyen",
+          "label": "ngoc_huyen",
+          "file": "kokoro/ngoc-huyen.wav"
+        },
+        {
+          "voice": "phat_tai",
+          "label": "phat_tai",
+          "file": "kokoro/phat-tai.wav"
+        },
+        {
+          "voice": "storyvert",
+          "label": "storyvert",
+          "file": "kokoro/storyvert.wav"
+        },
+        {
+          "voice": "thanh_dat",
+          "label": "thanh_dat",
+          "file": "kokoro/thanh-dat.wav"
+        },
+        {
+          "voice": "thuc_trinh",
+          "label": "thuc_trinh",
+          "file": "kokoro/thuc-trinh.wav"
+        },
+        {
+          "voice": "tuan_ngoc",
+          "label": "tuan_ngoc",
+          "file": "kokoro/tuan-ngoc.wav"
+        },
+        {
+          "voice": "duc_an",
+          "label": "duc_an",
+          "file": "kokoro/duc-an.wav"
+        },
+        {
+          "voice": "duc_duy",
+          "label": "duc_duy",
+          "file": "kokoro/duc-duy.wav"
+        }
+      ]
+    },
+    "vieneu-v3-turbo-node": {
+      "voices": [
+        {
+          "voice": "Minh Đức",
+          "label": "Minh Đức",
+          "file": "vieneu/minh-duc.wav"
+        },
+        {
+          "voice": "Phạm Tuyên",
+          "label": "Phạm Tuyên",
+          "file": "vieneu/pham-tuyen.wav"
+        },
+        {
+          "voice": "Thái Sơn",
+          "label": "Thái Sơn",
+          "file": "vieneu/thai-son.wav"
+        },
+        {
+          "voice": "Xuân Vĩnh",
+          "label": "Xuân Vĩnh",
+          "file": "vieneu/xuan-vinh.wav"
+        },
+        {
+          "voice": "Thanh Bình",
+          "label": "Thanh Bình",
+          "file": "vieneu/thanh-binh.wav"
+        },
+        {
+          "voice": "Trúc Ly",
+          "label": "Trúc Ly",
+          "file": "vieneu/truc-ly.wav"
+        },
+        {
+          "voice": "Ngọc Linh",
+          "label": "Ngọc Linh",
+          "file": "vieneu/ngoc-linh.wav"
+        },
+        {
+          "voice": "Đoan Trang",
+          "label": "Đoan Trang",
+          "file": "vieneu/doan-trang.wav"
+        },
+        {
+          "voice": "Mai Anh",
+          "label": "Mai Anh",
+          "file": "vieneu/mai-anh.wav"
+        },
+        {
+          "voice": "Thục Đoan",
+          "label": "Thục Đoan",
+          "file": "vieneu/thuc-doan.wav"
+        },
+        {
+          "voice": "Minh Triết",
+          "label": "Minh Triết",
+          "file": "vieneu/minh-triet.wav"
+        },
+        {
+          "voice": "Thùy Dung",
+          "label": "Thùy Dung",
+          "file": "vieneu/thuy-dung.wav"
+        },
+        {
+          "voice": "Quang Sơn",
+          "label": "Quang Sơn",
+          "file": "vieneu/quang-son.wav"
+        },
+        {
+          "voice": "Ngọc Trân",
+          "label": "Ngọc Trân",
+          "file": "vieneu/ngoc-tran.wav"
+        },
+        {
+          "voice": "Mỹ Duyên",
+          "label": "Mỹ Duyên",
+          "file": "vieneu/my-duyen.wav"
+        },
+        {
+          "voice": "Quỳnh Anh",
+          "label": "Quỳnh Anh",
+          "file": "vieneu/quynh-anh.wav"
+        },
+        {
+          "voice": "Đức Trí",
+          "label": "Đức Trí",
+          "file": "vieneu/duc-tri.wav"
+        },
+        {
+          "voice": "Kim Thanh",
+          "label": "Kim Thanh",
+          "file": "vieneu/kim-thanh.wav"
+        },
+        {
+          "voice": "Ngọc Huyền",
+          "label": "Ngọc Huyền",
+          "file": "vieneu/ngoc-huyen.wav"
+        },
+        {
+          "voice": "Adam",
+          "label": "Adam",
+          "file": "vieneu/adam.wav"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+HOTANVOICE v1.0 — GIẤY PHÉP VÀ THÔNG BÁO BÊN THỨ BA
+================================================================
+
+1. PHẦN MỀM
+-----------
+hotanvoice v1.0 là ứng dụng studio chuyển văn bản thành giọng nói, chạy
+cục bộ trên thiết bị. Phần giao diện, logic ứng dụng, khung license và
+công cụ đóng gói trong bản phát hành này thuộc bản quyền của tác giả
+phát hành hotanvoice, trừ các thành phần bên thứ ba được liệt kê dưới đây.
+
+Phần mềm được cung cấp "nguyên trạng", không kèm bảo đảm dưới bất kỳ hình
+thức nào. Người dùng chịu trách nhiệm về nội dung văn bản, audio tham chiếu
+và mục đích sử dụng giọng nói được tạo ra.
+
+2. GIẤY PHÉP KÍCH HOẠT
+----------------------
+License của hotanvoice được cấp theo thiết bị và được xác thực qua Internet.
+Sau khi kích hoạt, KEY trả phí cho phép dùng offline tối đa 7 ngày; hết hạn lease
+thì cần kết nối lại để gia hạn. Bản dùng thử luôn cần Internet.
+KEY do quản trị viên hotanvoice cấp. Không chia sẻ, bán lại hoặc sử dụng
+KEY ngoài phạm vi được cấp.
+
+3. THÀNH PHẦN BÊN THỨ BA
+------------------------
+- Electron, Chromium, Node.js
+  Giấy phép MIT / BSD và các giấy phép mã nguồn mở đi kèm. Toàn văn giấy
+  phép của Chromium được đóng gói tại LICENSES.chromium.html.
+
+- ONNX Runtime (onnxruntime-node)
+  Giấy phép MIT.
+
+- ffmpeg / ffmpeg-static
+  ffmpeg là phần mềm mã nguồn mở. Bản ffmpeg đi kèm được phân phối theo
+  giấy phép của bản build tương ứng (LGPL và/hoặc GPL). Xem thông tin
+  giấy phép trong thư mục assets/ffmpeg và node_modules/ffmpeg-static.
+
+- read-vietnamese-number
+  Giấy phép MIT.
+
+- @lambda_x/sptk (SentencePiece tokenizer)
+  Theo giấy phép đi kèm của gói.
+
+- Whisper.cpp
+  Giấy phép MIT. Runtime và model speech-to-text được đóng gói trong
+  assets/asr.
+
+- SEA-G2P
+  Từ điển ngữ âm tiếng Việt/Anh. Xem assets/model/SEA-G2P-LICENSE.
+
+- Kokoro Vietnamese
+  Model ONNX và voicepack được đóng gói trong assets/model. Việc sử dụng
+  model tuân theo giấy phép và model card của Kokoro Vietnamese.
+
+- VietNeu-TTS v3 Turbo
+  Model ONNX, speaker encoder, tokenizer và voice preset được đóng gói
+  trong assets/model/vieneu-v3-int8. Việc sử dụng tuân theo giấy phép
+  của VietNeu-TTS.
+
+- MOSS-TTS-Nano
+  Model ONNX, codec và voice preset được đóng gói trong
+  assets/model/moss-tts-nano và assets/model/moss-onnx. Việc sử dụng
+  tuân theo giấy phép của MOSS-TTS-Nano.
+
+Người phát hành và người dùng cần tự bảo đảm có quyền sử dụng, phân phối
+và thương mại hóa các model, voicepack và audio đi kèm theo giấy phép
+tương ứng của chúng.
+
+4. QUYỀN RIÊNG TƯ VÀ CLONE GIỌNG
+--------------------------------
+hotanvoice xử lý văn bản, audio và model hoàn toàn trên máy. Không có dữ
+liệu nội dung nào được gửi lên máy chủ của ứng dụng.
+
+Chỉ clone giọng khi bạn có sự đồng ý rõ ràng của người sở hữu giọng nói
+và có quyền sử dụng audio tham chiếu. Không sử dụng tính năng này để mạo
+danh, lừa đảo hoặc xâm phạm quyền của người khác.
+
+5. DỮ LIỆU CỤC BỘ
+-----------------
+Dữ liệu ứng dụng được lưu trong thư mục hotanvoice-data cạnh file chạy,
+bao gồm: lịch sử audio, preset, giọng custom, license và file tạm.
+Người dùng có thể sao lưu hoặc xóa thư mục này khi không cần nữa.
+
+6. LIÊN HỆ
+----------
+hotanvoice v1.0
+Phát hành bởi: Ho Tan

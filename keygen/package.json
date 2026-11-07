@@ -1,0 +1,17 @@
+{
+  "name": "hotanvoice-keygen",
+  "productName": "hotanvoice Keygen",
+  "version": "1.0.0",
+  "description": "Cong cu cap KEY license online cho hotanvoice (noi bo)",
+  "main": "main.js",
+  "author": "Ho Tan",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "lint": "node --check main.js && node --check preload.js && node --check lib/license.js && node --check renderer/app.js"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7"
+  }
+}

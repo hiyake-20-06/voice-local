@@ -1,0 +1,43 @@
+BẢN QUYỀN © 2026 HO TAN. MỌI QUYỀN ĐƯỢC BẢO LƯU.
+Copyright (c) 2026 Ho Tan. All rights reserved.
+
+1. PHẠM VI
+   Mã nguồn, giao diện, logic ứng dụng, tài liệu và quy trình cấp phép trong
+   kho lưu trữ này ("Phần mềm") thuộc bản quyền của tác giả hotanvoice.
+
+2. CẤM SỬ DỤNG
+   Không được sao chép, sửa đổi, hợp nhất, phát hành, phân phối, cấp phép lại,
+   bán hoặc cho thuê Phần mềm, toàn bộ hay một phần, dưới bất kỳ hình thức nào
+   mà không có văn bản đồng ý trước của tác giả.
+
+3. GIẤY PHÉP SỬ DỤNG
+   Người dùng hợp lệ được sử dụng bản phát hành hotanvoice theo KEY do tác giả
+   cấp, gắn với một thiết bị. KEY không được chia sẻ, bán lại hoặc dùng ngoài
+   phạm vi đã cấp.
+
+4. THÀNH PHẦN BÊN THỨ BA
+   Các thư viện, mô hình AI và công cụ bên thứ ba đi kèm bản phát hành được
+   phân phối theo giấy phép riêng của chúng. Xem `src/LEGAL-NOTICES.txt`.
+
+5. MIỄN TRỪ
+   Phần mềm được cung cấp "nguyên trạng", không kèm bảo đảm dưới bất kỳ hình
+   thức nào. Tác giả không chịu trách nhiệm cho bất kỳ thiệt hại nào phát sinh
+   từ việc sử dụng Phần mềm.
+
+---
+
+Copyright (c) 2026 Ho Tan. All rights reserved.
+
+The source code, user interface, application logic, documentation and licensing
+workflow in this repository ("Software") are proprietary.
+
+No part of the Software may be copied, modified, merged, published, distributed,
+sublicensed, sold or rented, in whole or in part, in any form, without the prior
+written permission of the author.
+
+Third-party libraries and AI models bundled with releases are distributed under
+their own licenses. See `src/LEGAL-NOTICES.txt`.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE.

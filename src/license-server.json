@@ -1,0 +1,5 @@
+{
+  "url": "https://hotanvoice-license.hiyake111.workers.dev",
+  "_comment": "Địa chỉ server license thật (HTTPS). File này KHÔNG chứa secret.",
+  "_doc": "Phải chép cùng nội dung vào app\\license-server.json khi build. Hướng dẫn deploy: server\\README.md và server\\cloudflare\\DEPLOY.md."
+}
